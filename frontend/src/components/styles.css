@@ -1,0 +1,39 @@
+.syncButton {
+    border-radius: 40px;
+    outline: none;
+    border: none;
+    background-color: #1D1F36;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.syncButton > * {
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.syncedGap {
+    width: 28px;
+    height: 28px;
+}
+
+.syncedIcon {
+    background-color: #D0F778;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
